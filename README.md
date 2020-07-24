@@ -9,13 +9,17 @@ Download [docker-compose.yml](https://github.com/rsilva4/docker-openmaint/blob/m
 
 After that a BIMServer will be available at [http://localhost:8890/bimserver/](http://localhost:8890/bimserver/), a GeoServer will be available at [http://localhost:8889/geoserver/](http://localhost:8889/geoserver/) and openMAINT will be available at [http://localhost:8888/openmaint/](http://localhost:8888/openmaint/).
 
+## Access
+user admin@example.org
+password bimserver
+
 ## Configuration
 
 Check [Dockerfile](https://github.com/rsilva4/docker-openmaint/blob/master/Dockerfile) for available environment variables, they are pretty much self descriptive.
 
 ## Notes
 
-* Java 6 and Tomcat 6 for openMAINT. 
+* Java 6 and Tomcat 6 for openMAINT.
 * BIMServer version currently necessary is 1.2 (old),so I created my own at [Docker Hub rsilva4/bimserver](https://hub.docker.com/r/rsilva4/bimserver/)
 * Geoserver 2.6.1 from [Docker Hub kartoza/geoserver](https://hub.docker.com/r/kartoza/geoserver/)
 * Postgres 9.4 with Postgis 2.1.7 from [Docker Hub kpettijohn/postgis](https://hub.docker.com/r/kpettijohn/postgis/)
